@@ -1,614 +1,660 @@
-# Looma Launcher
+# LOOMA
 ### Gaming Without Borders.
 
-**An Independent Gaming Platform Built for Developers and Gamers.**
-
-A platform where developers can publish, players can discover, and everyone can enjoy gaming with fewer barriers.
+**A New Way to Discover, Access, Manage, and Experience Games.**
 
 ---
 
 # English
 
-## About Looma
+## 01. Introduction
 
-**Looma Launcher** is an independent gaming platform currently under active development. It is being built with a strong initial focus on Iranian gamers and game developers, while maintaining a long-term vision that extends beyond geographical borders.
+**Looma** is an independent gaming platform designed to bring gamers, game developers, and gaming experiences together in one unified ecosystem.
 
-Looma is more than a traditional game launcher. Our ambition is to build a complete gaming ecosystem that connects game developers with players, creates opportunities for independent creators, and makes discovering, distributing, downloading, installing, updating, and managing games easier and more accessible.
+Initially focused on addressing the challenges faced by Iranian gamers and developers, Looma is being developed with a broader ambition: creating a platform that can serve a global gaming community without being limited by geographical boundaries.
 
-Our vision is to create a platform where developers can publish their games, choose how to distribute them, and generate revenue from their creations, while gamers can discover and enjoy games through one unified environment.
+Looma aims to go beyond the traditional concept of a game launcher. It is envisioned as an integrated environment for game discovery, distribution, installation, management, updates, and developer publishing.
 
-We believe gaming should be accessible to everyone, regardless of where they live.
+The platform is built around three fundamental ideas:
 
-**Looma is built around one fundamental idea: Gaming Without Borders.**
+- Making gaming more accessible.
+- Giving developers greater opportunities and control.
+- Giving players freedom, flexibility, and control over their gaming experience.
 
-## Why Looma?
+Our goal is to create an ecosystem where discovering and playing games is straightforward, publishing games is more accessible, and users have meaningful control over how everything works.
 
-The gaming industry has become one of the largest entertainment industries in the world. However, access to its opportunities and services is not equally available to everyone.
+## 02. The Problem We Want to Solve
 
-For Iranian gamers and developers, participating in the global gaming ecosystem can be particularly challenging.
+Access to the gaming industry is not equally available to everyone.
 
-International sanctions, regional restrictions, payment limitations, connectivity problems, and dependence on foreign platforms create barriers that many gamers and developers in other countries rarely have to consider.
+For many Iranian gamers and developers, participating in the global gaming ecosystem involves challenges that are often invisible to users in other regions.
 
-Some of these challenges include:
+These challenges include:
 
-- Limited or unreliable access to international gaming services.
-- Difficulties purchasing games and making international payments.
-- Challenges for independent Iranian developers trying to publish and monetize their games.
-- Slow or expensive downloads from international servers.
-- Dependence on external platforms and infrastructure.
-- Potential loss of access to international services during internet disruptions.
+- Regional restrictions and international sanctions.
+- Limited access to international gaming platforms.
+- Difficulties with international payments and purchasing games.
+- Limited opportunities for independent developers to distribute and monetize their work.
+- Slow downloads and dependence on international servers.
+- Infrastructure instability and internet disruptions.
+- Fragmented gaming experiences across different platforms and services.
 
-We believe these challenges deserve practical solutions.
+These are not isolated problems. Together, they create an environment where gamers have fewer choices and developers face additional barriers when trying to reach their audiences.
 
-Why should someone's geographical location determine their opportunities in gaming?
+Looma is being developed to address these challenges through an independent platform built around accessibility, local infrastructure, developer opportunities, and user control.
 
-Why should talented developers struggle to distribute their creations?
+Our ambition is to address up to **80% of common problems associated with game launchers and digital game distribution**.
 
-Why should gamers have fewer choices simply because of where they live?
+This is a long-term development target, intended to guide feature design and product decisions rather than represent a measured achievement.
 
-**Everyone deserves a fairer opportunity to participate in the gaming world.**
+## 03. The Looma Ecosystem
 
-Looma is our effort to reduce these barriers by building an independent platform that prioritizes accessibility, local infrastructure, developer opportunities, and a better gaming experience.
+Looma is designed around two interconnected groups: gamers and game developers.
 
-## A Platform for Game Developers
+### For Gamers
 
-One of Looma's primary objectives is to provide independent game developers, especially Iranian creators, with a platform to publish and distribute their games.
+Looma aims to provide a unified environment for discovering, accessing, downloading, installing, updating, and managing games.
 
-We want developers to have greater freedom and control over how their creations reach players.
+The planned experience includes:
 
-Our planned developer-focused capabilities include:
-
-- Publishing and managing games.
-- Offering games for free or setting their own prices.
-- Generating revenue from their creations.
-- Reaching a wider audience.
-- Managing game releases and updates.
-- Building communities around their games.
-- Providing opportunities for independent developers and smaller studios.
-
-Our goal is to make game publishing more accessible and give developers opportunities that might otherwise be difficult to obtain.
-
-A great game should have the opportunity to find its audience, regardless of where it was created.
-
-## A Better Experience for Gamers
-
-For players, Looma aims to provide a centralized environment for discovering, downloading, installing, updating, and managing games.
-
-Our planned gamer-focused capabilities include:
-
-- A unified game library.
-- Game discovery, browsing, and search.
+- A centralized gaming library.
+- Game discovery and search.
 - Free and paid game distribution.
-- Game installation and updates.
-- Optimized download infrastructure.
-- Support for domestic Content Delivery Networks (CDNs).
-- Individual game management.
-- Customization of the launcher experience.
-- Clear and accessible controls for supported operations.
-
-We want players to spend less time dealing with distribution problems and more time enjoying games.
-
-## More Than Accessibility — Solving Everyday Gaming Problems
-
-Looma is not designed to address accessibility challenges alone.
-
-Our broader ambition is to solve a significant portion of the everyday problems gamers face when using game launchers and digital game distribution platforms.
-
-Our long-term target is to address up to **80% of common launcher-related and game distribution problems** through practical features, better infrastructure, and a more user-focused design.
-
-This percentage represents a development goal, not a currently verified measurement.
-
-We want to focus on the details that make a real difference in everyday use.
-
-A launcher should not simply download and launch games. It should make the entire experience easier, more transparent, and more convenient.
-
-## Personalization — Your Platform, Your Way
-
-We believe every user should have the freedom to shape their own experience.
-
-Looma aims to provide extensive customization options, allowing users to personalize their environment according to their preferences.
-
-Our vision includes:
-
-- Customizable interface and appearance.
-- Flexible library organization.
-- Personalized game categories.
-- Individual game settings.
-- Customizable launcher behavior.
-- User-defined preferences and configurations.
-
-We want users to feel that Looma belongs to them, rather than forcing everyone into the same experience.
-
-## Complete User Control
-
-One of Looma's fundamental principles is giving users meaningful control over their games and the actions performed by the launcher.
-
-Users should understand what is happening on their system and have control over supported operations.
-
-Our planned approach includes transparent management of:
-
-- Game installations and uninstallation.
-- Downloads and download priorities.
-- Game updates.
+- Game installation and update management.
+- Download management and prioritization.
 - Individual game configurations.
-- Launcher settings and behavior.
-- Supported game-related operations.
+- Customizable launcher behavior.
+- Access to games distributed through Looma.
+- Clear information and control over launcher operations.
 
-We want Looma to be transparent about its actions rather than performing unnecessary operations without the user's knowledge.
+The objective is to reduce the complexity of managing games and provide a more consistent experience.
+
+### For Game Developers
+
+Independent developers and studios need accessible ways to publish their work, reach players, and generate revenue.
+
+Looma aims to provide a dedicated environment for game publishing and distribution.
+
+Planned developer capabilities include:
+
+- Game publishing and distribution.
+- Game page and information management.
+- Free and paid release options.
+- Pricing and distribution controls.
+- Release and update management.
+- Developer-oriented publishing tools.
+- Opportunities to reach both regional and international audiences.
+
+Our vision is to reduce the barriers between creating a game and making it available to players.
+
+A developer's location should not determine the potential reach of their work.
+
+## 04. Accessibility and Regional Infrastructure
+
+One of Looma's central motivations is improving gaming accessibility in regions where international services are difficult to access.
+
+Iran presents specific infrastructure challenges, including international connectivity limitations, regional restrictions, and dependence on external platforms.
+
+Looma aims to reduce some of these dependencies through regional infrastructure and local content distribution.
+
+### Domestic CDN Integration
+
+Support for domestic Content Delivery Networks (CDNs) is an important part of Looma's infrastructure vision.
+
+By distributing game files and updates through suitable regional infrastructure, Looma aims to:
+
+- Improve download speeds for users in supported regions.
+- Reduce unnecessary international traffic.
+- Improve the efficiency of game distribution.
+- Reduce dependence on distant download servers.
+- Make large game updates more manageable.
+
+### Resilience and Connectivity
+
+Looma is being designed with infrastructure limitations in mind.
+
+Where technically and legally possible, locally hosted game content and regional services could remain accessible even when international connectivity is disrupted.
+
+However, full functionality during an international internet outage cannot be guaranteed. Features that depend on external authentication, payment providers, game services, or international infrastructure may still require international connectivity.
+
+Our objective is to reduce unnecessary dependencies rather than make unrealistic promises about complete independence from the global internet.
+
+## 05. Personalization and User Control
+
+Looma is not intended to force every user into the same experience.
+
+We believe a gaming platform should adapt to its users, not the other way around.
+
+### Personalization
+
+Looma aims to provide extensive customization options, including:
+
+- Interface appearance and visual preferences.
+- Library organization.
+- Custom game categories.
+- Individual game configurations.
+- Launcher behavior and preferences.
+- Flexible management options.
+
+Users should have the freedom to shape their own environment.
+
+### Complete User Control
+
+Transparency and control are fundamental to the Looma experience.
+
+Users should be able to understand and manage the actions performed by the launcher.
+
+This includes planned controls for:
+
+- Game installation and removal.
+- Download management and priorities.
+- Game updates.
+- Individual game settings.
+- Launcher configuration.
+- Supported background operations.
+
+We believe users should know what the software is doing, when it is doing it, and why.
+
+Unnecessary background operations and unclear behavior should not be part of the experience.
 
 **The launcher should work for the user, not the other way around.**
 
-## Simplicity for Everyone
+## 06. Simplicity Without Limitations
 
 Powerful software does not have to be complicated.
 
-Looma aims to provide an intuitive, understandable, and accessible interface that can be comfortably used by people of different ages and technical backgrounds.
+Looma aims to combine advanced functionality with an interface that remains intuitive and understandable.
 
-Whether someone is an experienced PC gamer, a casual player, or someone using a game launcher for the first time, the experience should remain clear and straightforward.
+The platform is being designed for users with different ages, experience levels, and technical backgrounds.
 
-Our design philosophy is based on:
+Whether someone is an experienced PC gamer or opening a game launcher for the first time, essential operations should remain easy to understand.
 
-- Easy navigation.
-- Understandable menus and settings.
-- Clear instructions and feedback.
-- Minimal unnecessary complexity.
+Our design approach prioritizes:
+
+- Clear navigation.
+- Understandable settings.
+- Consistent interface behavior.
 - Accessible controls.
-- A consistent user experience.
+- Useful feedback and explanations.
+- Minimal unnecessary complexity.
+- Advanced functionality without overwhelming the user.
 
-We want to combine advanced functionality with simplicity.
+We want Looma to be powerful when users need it, simple when they do not, and customizable whenever they want.
 
-**Powerful when you need it. Simple when you don't. Customizable whenever you want.**
+## 07. A Global Platform with a Local Foundation
 
-## Local Infrastructure and Accessibility
+Although Looma initially focuses on the Iranian gaming community, its architecture and long-term direction are not intended to be limited to Iran.
 
-One of the most important reasons behind Looma's initial focus on Iran is the country's unique internet and infrastructure challenges.
+The broader vision is to support an international ecosystem where developers and players from different regions can participate.
 
-Dependence on international platforms can become a serious problem when international connectivity is disrupted.
+This includes:
 
-In such circumstances, gamers may lose access to services they normally rely on.
+- Supporting developers beyond a single geographical region.
+- Making games available to wider audiences.
+- Building infrastructure that can expand into additional regions.
+- Supporting different distribution and access requirements.
+- Creating opportunities for international collaboration.
 
-Looma aims to reduce this dependency through support for domestic infrastructure and local content distribution.
+Starting with a specific regional problem allows Looma to build around real needs while developing toward a wider audience.
 
-By integrating supported domestic CDNs and optimizing regional distribution, we aim to make game downloads faster, more efficient, and more reliable for users within Iran.
+**Local foundations. Global ambitions.**
 
-Our long-term infrastructure goals include:
+## 08. AI-Assisted Development and OpenAI
 
-- Domestic content distribution.
-- Regional download optimization.
-- Integration with supported domestic CDNs.
-- Reduced dependence on international download servers.
-- Efficient distribution of game updates.
-- More resilient access to locally hosted games and services.
+Artificial intelligence is an important part of the modern software development landscape.
 
-These systems aim to improve accessibility and reduce external dependencies. However, international connectivity may still be required for certain features and services.
+Looma is being developed with the assistance of AI tools, including **ChatGPT by OpenAI**.
 
-## Beyond Iran
+ChatGPT is used as a development assistance tool to support different stages of the engineering process.
 
-Although Looma begins with a focus on the Iranian gaming community, our ambitions are not limited to one country.
-
-Our long-term vision is to create an ecosystem that connects developers and gamers internationally.
-
-We want developers from different countries to publish their games, reach new audiences, and participate in a more accessible distribution ecosystem.
-
-We also want players around the world to discover games they might never have encountered otherwise.
-
-**Starting locally does not mean thinking locally.**
-
-## AI-Assisted Development and OpenAI
-
-Artificial intelligence is becoming an important part of modern software development, and Looma's development process reflects that change.
-
-**ChatGPT by OpenAI is being used as an AI-assisted development tool throughout the project.**
-
-During development, ChatGPT helps support activities such as:
+Its use includes:
 
 - Exploring and evaluating technical approaches.
-- Planning software architecture and development workflows.
-- Assisting with programming and implementation tasks.
-- Reviewing ideas and identifying potential issues.
-- Debugging and investigating technical problems.
-- Improving project documentation.
-- Exploring solutions to development challenges.
+- Software architecture planning.
+- Programming assistance and implementation.
+- Analyzing technical problems.
+- Debugging and troubleshooting.
+- Reviewing development decisions.
+- Improving technical documentation.
+- Exploring alternative solutions to engineering challenges.
 
-We see AI as a development partner and productivity tool that can help us explore ideas, work through technical challenges, and improve the development process.
+AI assistance helps accelerate research, support problem-solving, and improve development productivity.
 
-However, AI assistance does not replace engineering judgment, testing, verification, or responsibility for the final product.
+However, AI-generated suggestions and code must still be reviewed, tested, and validated. Engineering decisions and responsibility for the final product remain part of the development process.
 
-Our goal is to combine human direction, careful engineering, and AI-assisted development to build Looma more effectively.
+Our approach is to combine human direction, engineering judgment, and AI-assisted development.
 
-This section describes the tools used in our development workflow. It does not imply an official partnership with OpenAI or that Looma currently integrates OpenAI APIs into its released product.
+The use of ChatGPT in development does not imply an official partnership with OpenAI or an existing OpenAI API integration in the product.
 
-## Our Core Principles
+## 09. Core Design Principles
 
-Looma is being developed around several fundamental principles:
+Looma is guided by several principles that influence its design and development.
 
 **Accessibility**
 
-Gaming opportunities should not be unnecessarily limited by geographical location.
+Gaming should be more accessible regardless of geographical location.
 
 **Developer Freedom**
 
-Creators should have meaningful control over how their games are published, distributed, and monetized.
+Developers should have meaningful control over how their games are published, distributed, and monetized.
 
-**User Control**
+**User Ownership and Control**
 
-Users should understand and control the actions performed by the platform.
+Users should have clear control over their games, settings, downloads, and supported launcher operations.
 
 **Personalization**
 
-Every user should have the freedom to customize their experience.
+The experience should adapt to individual preferences.
 
 **Simplicity**
 
-Advanced functionality should remain understandable and accessible to everyone.
+Advanced features should remain understandable and approachable.
 
-**Local Infrastructure**
+**Transparency**
 
-Regional infrastructure can improve distribution efficiency and accessibility.
+The platform should communicate its operations clearly.
 
-**Community**
+**Regional Infrastructure**
 
-A successful gaming ecosystem should benefit developers and players alike.
+Local and regional infrastructure should be used where it improves accessibility and distribution efficiency.
 
 **Continuous Improvement**
 
-Looma should evolve through real user feedback, technical improvements, and community contributions.
+The platform should evolve through testing, technical progress, and real user feedback.
 
-## Long-Term Vision
+## 10. Technology and Development Direction
 
-We envision Looma becoming much more than a launcher.
+Looma is being developed with an emphasis on modularity, maintainability, scalability, and reliability.
 
-Our long-term objectives include building:
+The technical direction aims to support a platform that can grow from a launcher into a larger digital gaming ecosystem.
 
-- A complete digital game distribution platform.
-- A marketplace for independent game developers.
-- A developer publishing and management system.
-- Secure payment and revenue distribution infrastructure.
-- An efficient game update and distribution system.
-- Scalable regional CDN integrations.
-- Advanced game and library management tools.
-- Extensive customization capabilities.
-- A global gaming community.
-- An ecosystem supporting independent developers and established studios.
+Important engineering considerations include:
 
-These are long-term objectives. Their implementation will depend on development progress, infrastructure, partnerships, and available resources.
+- Modular software architecture.
+- Separation of core launcher functionality and platform services.
+- Reliable game installation and update mechanisms.
+- Efficient download management.
+- Secure handling of user data and authentication.
+- Scalable game distribution infrastructure.
+- Maintainable developer and publishing systems.
+- Clear interfaces between independent components.
+- Testing and validation of critical operations.
 
-## Current Development Status
+The architecture should allow individual components to evolve without requiring unnecessary changes throughout the entire platform.
 
-**Looma Launcher is currently under active development.**
+This approach is intended to make Looma easier to maintain, extend, and integrate with future services.
 
-The project is in its early development stage, and its architecture, infrastructure, distribution systems, and core features are being developed progressively.
+## 11. Long-Term Vision
 
-Not every feature described in this README is currently implemented or available. Some sections describe planned capabilities and long-term objectives.
+Looma's long-term ambition extends beyond the functionality of a traditional game launcher.
 
-We believe in building the project step by step, testing its components, documenting progress, and improving the platform as development continues.
+The platform is intended to evolve toward a complete gaming ecosystem that may include:
 
-This repository is the central starting point for Looma's source code, documentation, development roadmap, and future community contributions.
+- A digital game distribution platform.
+- A marketplace for independent developers.
+- Developer publishing and management tools.
+- Game discovery and community features.
+- Secure payment and revenue distribution systems.
+- Regional CDN integrations.
+- Advanced game management capabilities.
+- Extensive customization.
+- International distribution infrastructure.
+- Support for independent creators and established studios.
 
-## Contributing
+These capabilities represent the long-term direction of Looma and will be developed progressively according to technical feasibility, infrastructure, partnerships, and available resources.
 
-Looma is intended to grow into a community-driven project.
+## 12. Current Development Status
 
-Developers, designers, testers, and gaming enthusiasts who share our vision will be welcome to contribute as the project evolves.
+**Looma is currently under active development.**
 
-Contribution guidelines, development workflows, and collaboration opportunities will be published as the project progresses.
+Its core systems, architecture, user experience, and infrastructure are being developed progressively.
 
-## Our Mission
+The project is in an early development stage. Features described as planned or envisioned should not be interpreted as already available or fully implemented.
 
-We are building Looma because we believe the gaming world should be more accessible.
+Development priorities include establishing a reliable foundation, implementing core launcher functionality, and gradually expanding toward the broader platform vision.
 
-We believe independent developers deserve opportunities to publish and monetize their creations.
+The focus is on building a maintainable, useful, and scalable product rather than rushing to release unfinished features.
 
-We believe gamers deserve better access to the games they love.
+## 13. Mission
 
-We believe users should have control over their own experience.
+Looma exists to make gaming more accessible, distribution more open, and user experiences more flexible.
 
-We believe powerful software should also be simple and understandable.
+We want developers to have better opportunities to publish their creations.
 
-And we believe geographical borders should not become barriers to creativity, opportunity, and entertainment.
+We want gamers to have more freedom in discovering and managing their games.
 
-**Looma Launcher — Gaming Without Borders.**
+We want users to understand and control their software.
+
+We want powerful functionality without unnecessary complexity.
+
+And we want geographical boundaries to become less of an obstacle to creativity, opportunity, and entertainment.
+
+**LOOMA — Gaming Without Borders.**
 
 ---
 
 # نسخه فارسی
 
-## درباره لوما
+## ۰۱. معرفی
 
-**لوما لانچر (Looma Launcher)** یک پلتفرم مستقل در حوزه بازی‌های ویدیویی است که در حال حاضر در مرحله توسعه قرار دارد. این پروژه در ابتدا با تمرکز ویژه بر گیمرها و بازی‌سازان ایرانی طراحی شده، اما چشم‌انداز بلندمدت آن فراتر از مرزهای جغرافیایی است.
+**لوما (Looma)** یک پلتفرم مستقل در حوزه بازی‌های ویدیویی است که با هدف ایجاد ارتباط میان گیمرها، بازی‌سازان و تجربه‌های مختلف دنیای بازی طراحی شده است.
 
-لوما صرفاً یک لانچر معمولی برای اجرای بازی‌ها نیست؛ بلکه هدف آن ایجاد یک اکوسیستم کامل برای ارتباط میان بازی‌سازان و بازیکنان، ایجاد فرصت برای توسعه‌دهندگان مستقل و ساده‌تر کردن فرایند پیدا کردن، انتشار، دانلود، نصب، به‌روزرسانی و مدیریت بازی‌هاست.
+لوما در ابتدا با تمرکز بر مشکلات و محدودیت‌های گیمرها و توسعه‌دهندگان ایرانی شکل گرفته، اما چشم‌انداز آن به یک جامعه یا منطقه جغرافیایی محدود نمی‌شود.
 
-چشم‌انداز ما ایجاد بستری است که در آن توسعه‌دهندگان بتوانند بازی‌های خود را منتشر کنند، روش عرضه آن‌ها را انتخاب کنند و از آثار خود کسب درآمد داشته باشند؛ در مقابل، گیمرها نیز بتوانند از طریق یک محیط یکپارچه بازی‌های مختلف را پیدا و تجربه کنند.
+هدف لوما فراتر رفتن از مفهوم سنتی لانچر بازی است. ما در حال توسعه محیطی یکپارچه برای کشف، توزیع، نصب، مدیریت و به‌روزرسانی بازی‌ها و همچنین انتشار آثار توسعه‌دهندگان هستیم.
 
-ما باور داریم دسترسی به دنیای بازی‌ها نباید به محل زندگی افراد وابسته باشد.
+این پلتفرم بر سه ایده اساسی استوار است:
 
-**لوما بر اساس یک ایده اساسی ساخته می‌شود: دنیای بازی‌ها، بدون مرز.**
+- دسترس‌پذیرتر کردن دنیای بازی‌ها.
+- ایجاد فرصت و آزادی عمل بیشتر برای توسعه‌دهندگان.
+- فراهم کردن آزادی، انعطاف‌پذیری و کنترل واقعی برای بازیکنان.
 
-## چرا لوما؟
+هدف ما ساخت اکوسیستمی است که در آن پیدا کردن و تجربه بازی‌ها ساده‌تر باشد، انتشار بازی برای توسعه‌دهندگان دسترس‌پذیرتر شود و کاربران کنترل معناداری بر نحوه عملکرد پلتفرم داشته باشند.
 
-صنعت بازی‌های ویدیویی به یکی از بزرگ‌ترین صنایع سرگرمی جهان تبدیل شده است؛ اما دسترسی به فرصت‌ها و خدمات آن برای همه یکسان نیست.
+## ۰۲. مسئله‌ای که می‌خواهیم حل کنیم
 
-برای گیمرها و بازی‌سازان ایرانی، حضور در اکوسیستم جهانی بازی‌ها می‌تواند با چالش‌های متعددی همراه باشد.
+دسترسی به صنعت بازی‌های ویدیویی برای همه افراد یکسان نیست.
 
-تحریم‌های بین‌المللی، محدودیت‌های منطقه‌ای، مشکلات پرداخت، اختلالات ارتباطی و وابستگی به پلتفرم‌های خارجی موانعی ایجاد می‌کنند که بسیاری از گیمرها و توسعه‌دهندگان کشورهای دیگر کمتر با آن‌ها مواجه هستند.
+برای بسیاری از گیمرها و بازی‌سازان ایرانی، حضور در اکوسیستم جهانی بازی‌ها با مشکلاتی همراه است که کاربران بسیاری از مناطق دیگر کمتر با آن‌ها مواجه می‌شوند.
 
-برخی از این مشکلات عبارت‌اند از:
+این مشکلات شامل موارد زیر هستند:
 
-- دسترسی محدود یا ناپایدار به سرویس‌های بین‌المللی بازی.
-- دشواری خرید بازی‌ها و انجام پرداخت‌های بین‌المللی.
-- مشکلات بازی‌سازان مستقل ایرانی برای انتشار و درآمدزایی از آثارشان.
-- دانلود کند یا پرهزینه بازی‌ها از سرورهای خارجی.
-- وابستگی به پلتفرم‌ها و زیرساخت‌های خارجی.
-- احتمال از دست رفتن دسترسی به سرویس‌های بین‌المللی هنگام اختلال اینترنت.
+- محدودیت‌های منطقه‌ای و تحریم‌های بین‌المللی.
+- دسترسی محدود به پلتفرم‌های خارجی بازی.
+- مشکلات پرداخت بین‌المللی و خرید بازی‌ها.
+- فرصت‌های محدود توسعه‌دهندگان مستقل برای انتشار و درآمدزایی.
+- سرعت پایین دانلود و وابستگی به سرورهای خارجی.
+- ناپایداری زیرساخت‌ها و اختلالات اینترنت.
+- پراکندگی تجربه بازی میان پلتفرم‌ها و سرویس‌های مختلف.
 
-ما معتقدیم این مشکلات به راه‌حل‌های عملی نیاز دارند.
+این مشکلات جدا از یکدیگر نیستند؛ در کنار هم شرایطی ایجاد می‌کنند که در آن گیمرها انتخاب‌های کمتری دارند و توسعه‌دهندگان برای رساندن آثار خود به مخاطبان با موانع بیشتری روبه‌رو می‌شوند.
 
-چرا موقعیت جغرافیایی یک فرد باید فرصت‌های او را در دنیای بازی‌ها تعیین کند؟
+لوما با هدف کاهش این موانع و از طریق ایجاد پلتفرمی مستقل توسعه پیدا می‌کند؛ پلتفرمی که دسترسی‌پذیری، زیرساخت داخلی، فرصت‌های توسعه‌دهندگان و کنترل کاربر را در اولویت قرار می‌دهد.
 
-چرا توسعه‌دهندگان مستعد باید برای انتشار آثار خود با چنین موانعی روبه‌رو شوند؟
+هدف بلندمدت ما حل و پوشش دادن تا **۸۰ درصد از مشکلات رایج مرتبط با لانچرها و توزیع دیجیتال بازی‌ها** است.
 
-چرا گیمرها باید صرفاً به دلیل محل زندگی خود انتخاب‌های کمتری داشته باشند؟
+این عدد یک هدف توسعه‌ای است که برای هدایت طراحی قابلیت‌ها و تصمیم‌های محصول در نظر گرفته شده، نه یک دستاورد اندازه‌گیری‌شده فعلی.
 
-**همه افراد شایسته فرصت منصفانه‌تری برای حضور در دنیای بازی‌ها هستند.**
+## ۰۳. اکوسیستم لوما
 
-لوما تلاشی برای کاهش این موانع از طریق ساخت یک پلتفرم مستقل است؛ پلتفرمی که دسترسی‌پذیری، زیرساخت داخلی، فرصت‌های توسعه‌دهندگان و تجربه بهتر کاربران را در اولویت قرار می‌دهد.
+لوما بر اساس ارتباط میان دو گروه اصلی طراحی شده است: گیمرها و بازی‌سازان.
 
-## پلتفرمی برای بازی‌سازان
+### برای گیمرها
 
-یکی از اهداف اصلی لوما، فراهم کردن بستری برای انتشار و توزیع بازی‌های توسعه‌دهندگان مستقل، به‌خصوص بازی‌سازان ایرانی است.
+لوما قصد دارد محیطی یکپارچه برای پیدا کردن، دسترسی، دانلود، نصب، به‌روزرسانی و مدیریت بازی‌ها فراهم کند.
 
-ما می‌خواهیم توسعه‌دهندگان آزادی و کنترل بیشتری بر نحوه عرضه آثار خود داشته باشند.
+قابلیت‌های برنامه‌ریزی‌شده شامل موارد زیر هستند:
 
-قابلیت‌هایی که برای بازی‌سازان در نظر گرفته‌ایم:
-
-- انتشار و مدیریت بازی‌ها.
-- عرضه بازی‌ها به‌صورت رایگان یا تعیین قیمت دلخواه.
-- کسب درآمد از آثار خود.
-- دسترسی به مخاطبان گسترده‌تر.
-- مدیریت نسخه‌ها و به‌روزرسانی‌های بازی.
-- ایجاد جامعه پیرامون بازی‌های خود.
-- ایجاد فرصت برای توسعه‌دهندگان مستقل و استودیوهای کوچک.
-
-هدف ما آسان‌تر کردن انتشار بازی‌ها و فراهم کردن فرصت‌هایی است که ممکن است دستیابی به آن‌ها در شرایط عادی دشوار باشد.
-
-یک بازی خوب باید فرصت پیدا کردن مخاطبان خودش را داشته باشد؛ فرقی نمی‌کند در کجا ساخته شده باشد.
-
-## تجربه‌ای بهتر برای گیمرها
-
-لوما برای بازیکنان، محیطی یکپارچه جهت پیدا کردن، دانلود، نصب، به‌روزرسانی و مدیریت بازی‌ها فراهم خواهد کرد.
-
-قابلیت‌هایی که برای گیمرها در نظر گرفته‌ایم:
-
-- کتابخانه یکپارچه بازی‌ها.
-- جست‌وجو و کشف بازی‌های جدید.
+- کتابخانه متمرکز بازی‌ها.
+- جست‌وجو و کشف بازی‌ها.
 - توزیع بازی‌های رایگان و پولی.
-- نصب بازی‌ها و به‌روزرسانی‌ها.
-- زیرساخت بهینه‌شده برای دانلود.
-- پشتیبانی از CDNهای داخلی.
-- مدیریت اختصاصی بازی‌ها.
-- شخصی‌سازی تجربه استفاده از لانچر.
-- کنترل‌های شفاف و قابل‌فهم برای عملیات پشتیبانی‌شده.
-
-می‌خواهیم بازیکنان زمان کمتری را صرف مشکلات مربوط به توزیع و دسترسی کنند و زمان بیشتری را به تجربه بازی‌ها اختصاص دهند.
-
-## فراتر از دسترسی‌پذیری؛ حل مشکلات روزمره گیمرها
-
-لوما تنها برای برطرف کردن مشکلات دسترسی به بازی‌ها طراحی نمی‌شود.
-
-هدف گسترده‌تر ما حل بخش قابل‌توجهی از مشکلات روزمره‌ای است که گیمرها هنگام استفاده از لانچرها و پلتفرم‌های توزیع دیجیتال بازی با آن‌ها مواجه می‌شوند.
-
-هدف بلندمدت ما پوشش و برطرف کردن تا **۸۰ درصد از مشکلات رایج مربوط به لانچرها و توزیع بازی‌ها** از طریق قابلیت‌های کاربردی، زیرساخت بهتر و طراحی کاربرمحور است.
-
-این عدد یک هدف توسعه‌ای است، نه آماری که در حال حاضر اندازه‌گیری و اثبات شده باشد.
-
-ما می‌خواهیم روی جزئیاتی تمرکز کنیم که در استفاده روزمره واقعاً تفاوت ایجاد می‌کنند.
-
-یک لانچر نباید صرفاً بازی‌ها را دانلود و اجرا کند؛ بلکه باید کل تجربه استفاده از بازی‌ها را ساده‌تر، شفاف‌تر و راحت‌تر کند.
-
-## شخصی‌سازی؛ پلتفرم شما، به سلیقه شما
-
-ما باور داریم هر کاربر باید آزادی شکل دادن به تجربه شخصی خودش را داشته باشد.
-
-لوما قصد دارد امکانات گسترده‌ای برای شخصی‌سازی فراهم کند تا کاربران بتوانند محیط خود را مطابق سلیقه و نیازشان تغییر دهند.
-
-چشم‌انداز ما شامل موارد زیر است:
-
-- شخصی‌سازی رابط کاربری و ظاهر لانچر.
-- دسته‌بندی انعطاف‌پذیر کتابخانه بازی‌ها.
-- دسته‌بندی‌های اختصاصی.
-- تنظیمات جداگانه برای هر بازی.
+- مدیریت نصب و به‌روزرسانی بازی‌ها.
+- مدیریت دانلود و اولویت‌بندی آن.
+- تنظیمات اختصاصی برای هر بازی.
 - شخصی‌سازی رفتار لانچر.
-- تنظیمات و ترجیحات دلخواه کاربران.
+- دسترسی به بازی‌های منتشرشده در لوما.
+- نمایش اطلاعات شفاف و کنترل عملیات لانچر.
 
-ما می‌خواهیم کاربران احساس کنند لوما متعلق به خودشان است، نه اینکه همه مجبور باشند از یک تجربه یکسان استفاده کنند.
+هدف، کاهش پیچیدگی مدیریت بازی‌ها و ایجاد تجربه‌ای یکپارچه‌تر برای کاربران است.
 
-## کنترل کامل کاربر
+### برای بازی‌سازان
 
-یکی از اصول اساسی لوما، فراهم کردن کنترل واقعی و معنادار برای کاربران بر بازی‌هایشان و عملیات لانچر است.
+توسعه‌دهندگان مستقل و استودیوها به راه‌هایی دسترس‌پذیر برای انتشار آثار، جذب بازیکن و کسب درآمد نیاز دارند.
 
-کاربران باید بدانند چه اتفاقی در سیستم آن‌ها در حال رخ دادن است و بتوانند عملیات پشتیبانی‌شده را مدیریت کنند.
+لوما قصد دارد محیطی اختصاصی برای انتشار و توزیع بازی‌ها فراهم کند.
 
-رویکرد ما شامل مدیریت شفاف موارد زیر است:
+قابلیت‌های برنامه‌ریزی‌شده برای توسعه‌دهندگان شامل موارد زیر است:
+
+- انتشار و توزیع بازی‌ها.
+- مدیریت صفحه و اطلاعات بازی.
+- امکان عرضه رایگان یا پولی.
+- کنترل قیمت‌گذاری و نحوه توزیع.
+- مدیریت نسخه‌ها و به‌روزرسانی‌ها.
+- ابزارهای اختصاصی انتشار بازی.
+- فرصت دسترسی به مخاطبان داخلی و بین‌المللی.
+
+چشم‌انداز ما کاهش فاصله میان ساخت یک بازی و در دسترس قرار گرفتن آن برای بازیکنان است.
+
+محل زندگی یک توسعه‌دهنده نباید تعیین‌کننده میزان دسترسی آثار او به مخاطبان باشد.
+
+## ۰۴. دسترسی‌پذیری و زیرساخت منطقه‌ای
+
+یکی از انگیزه‌های اصلی شکل‌گیری لوما، بهبود دسترسی به بازی‌ها در مناطقی است که استفاده از سرویس‌های بین‌المللی با محدودیت همراه است.
+
+ایران با چالش‌های خاصی در زمینه زیرساخت اینترنت، محدودیت‌های منطقه‌ای و وابستگی به پلتفرم‌های خارجی روبه‌رو است.
+
+لوما قصد دارد با استفاده از زیرساخت‌های منطقه‌ای و توزیع محتوای داخلی، بخشی از این وابستگی‌ها را کاهش دهد.
+
+### اتصال به CDNهای داخلی
+
+پشتیبانی از شبکه‌های توزیع محتوا یا CDNهای داخلی یکی از بخش‌های مهم چشم‌انداز زیرساختی لوماست.
+
+با توزیع فایل‌های بازی و به‌روزرسانی‌ها از طریق زیرساخت‌های منطقه‌ای مناسب، اهداف زیر دنبال می‌شوند:
+
+- بهبود سرعت دانلود برای کاربران مناطق پشتیبانی‌شده.
+- کاهش ترافیک غیرضروری بین‌المللی.
+- افزایش کارایی توزیع بازی‌ها.
+- کاهش وابستگی به سرورهای دانلود دوردست.
+- مدیریت آسان‌تر به‌روزرسانی‌های حجیم بازی‌ها.
+
+### پایداری و اتصال
+
+لوما با در نظر گرفتن محدودیت‌های زیرساختی طراحی می‌شود.
+
+در شرایطی که از نظر فنی و قانونی امکان‌پذیر باشد، محتوای بازی‌های میزبانی‌شده در داخل کشور و سرویس‌های منطقه‌ای می‌توانند حتی هنگام اختلال اینترنت بین‌الملل در دسترس باقی بمانند.
+
+بااین‌حال، نمی‌توان عملکرد کامل تمام قابلیت‌ها را هنگام قطع اینترنت بین‌الملل تضمین کرد. امکانات وابسته به احراز هویت خارجی، سرویس‌های پرداخت، سرویس‌های بازی یا زیرساخت‌های بین‌المللی همچنان ممکن است به اینترنت بین‌الملل نیاز داشته باشند.
+
+هدف ما کاهش وابستگی‌های غیرضروری است، نه ارائه وعده غیرواقعی درباره استقلال کامل از اینترنت جهانی.
+
+## ۰۵. شخصی‌سازی و کنترل کاربر
+
+لوما قرار نیست همه کاربران را مجبور به استفاده از یک تجربه یکسان کند.
+
+ما باور داریم یک پلتفرم بازی باید خودش را با کاربران وفق دهد، نه اینکه کاربران مجبور باشند خودشان را با آن وفق دهند.
+
+### شخصی‌سازی
+
+لوما قصد دارد امکانات گسترده‌ای برای شخصی‌سازی ارائه دهد، از جمله:
+
+- تغییر ظاهر و رابط کاربری.
+- سازمان‌دهی کتابخانه بازی‌ها.
+- ایجاد دسته‌بندی‌های اختصاصی.
+- تنظیمات جداگانه برای هر بازی.
+- شخصی‌سازی رفتار و ترجیحات لانچر.
+- روش‌های انعطاف‌پذیر مدیریت بازی‌ها.
+
+کاربران باید آزادی شکل دادن به محیط شخصی خود را داشته باشند.
+
+### کنترل کامل کاربر
+
+شفافیت و کنترل، از اصول اساسی تجربه کار با لوما هستند.
+
+کاربران باید بتوانند فعالیت‌های لانچر را درک و مدیریت کنند.
+
+این موضوع شامل کنترل‌های برنامه‌ریزی‌شده برای موارد زیر است:
 
 - نصب و حذف بازی‌ها.
-- دانلودها و اولویت‌بندی دانلود.
+- مدیریت دانلود و اولویت‌های آن.
 - به‌روزرسانی بازی‌ها.
-- تنظیمات اختصاصی هر بازی.
-- تنظیمات و رفتار لانچر.
-- عملیات پشتیبانی‌شده مرتبط با بازی‌ها.
+- تنظیمات اختصاصی بازی‌ها.
+- پیکربندی لانچر.
+- عملیات پشتیبانی‌شده در پس‌زمینه.
 
-ما می‌خواهیم لوما درباره فعالیت‌های خود شفاف باشد و بدون اطلاع کاربر عملیات غیرضروری انجام ندهد.
+ما معتقدیم کاربران باید بدانند نرم‌افزار چه کاری انجام می‌دهد، چه زمانی آن را انجام می‌دهد و دلیل آن چیست.
 
-**لانچر باید برای کاربر کار کند، نه اینکه کاربر مجبور باشد خودش را با لانچر وفق دهد.**
+عملیات غیرضروری در پس‌زمینه و رفتارهای نامشخص نباید بخشی از تجربه استفاده از لوما باشند.
 
-## سادگی برای همه
+**لانچر باید برای کاربر کار کند، نه برعکس.**
+
+## ۰۶. سادگی بدون محدودیت
 
 نرم‌افزار قدرتمند لزوماً نباید پیچیده باشد.
 
-لوما قصد دارد رابط کاربری ساده، قابل‌فهم و قابل‌دسترسی داشته باشد؛ رابطی که افراد با سنین مختلف و میزان تجربه متفاوت بتوانند به‌راحتی از آن استفاده کنند.
+لوما قصد دارد قابلیت‌های پیشرفته را با رابطی ساده، قابل‌فهم و کاربردی ترکیب کند.
 
-فرقی نمی‌کند کاربر یک گیمر حرفه‌ای کامپیوتر باشد، یک بازیکن معمولی یا کسی که برای اولین بار از لانچر استفاده می‌کند؛ تجربه کاربری باید شفاف و ساده باقی بماند.
+این پلتفرم برای افراد با سنین، سطح تجربه و پیش‌زمینه فنی متفاوت طراحی می‌شود.
 
-فلسفه طراحی ما بر اساس موارد زیر است:
+فرقی نمی‌کند کاربر یک گیمر حرفه‌ای کامپیوتر باشد یا برای اولین بار یک لانچر بازی را باز کند؛ عملیات اصلی باید به‌سادگی قابل‌درک باشند.
 
-- مسیریابی آسان.
-- منوها و تنظیمات قابل‌فهم.
-- راهنمایی و بازخورد شفاف.
-- حذف پیچیدگی‌های غیرضروری.
+رویکرد طراحی ما بر موارد زیر تمرکز دارد:
+
+- مسیریابی شفاف.
+- تنظیمات قابل‌فهم.
+- رفتار یکپارچه رابط کاربری.
 - کنترل‌های قابل‌دسترس.
-- تجربه کاربری یکپارچه.
+- بازخورد و توضیحات کاربردی.
+- حداقل پیچیدگی غیرضروری.
+- امکانات پیشرفته بدون سردرگم کردن کاربر.
 
-ما می‌خواهیم امکانات پیشرفته را با سادگی ترکیب کنیم.
+ما می‌خواهیم لوما زمانی که کاربران به قدرت نیاز دارند قدرتمند باشد، زمانی که به سادگی نیاز دارند ساده باشد و هر زمان که بخواهند قابل شخصی‌سازی باشد.
 
-**وقتی به قدرت نیاز دارید، قدرتمند؛ وقتی به سادگی نیاز دارید، ساده؛ و هر زمان که بخواهید، قابل شخصی‌سازی.**
+## ۰۷. پلتفرمی جهانی با پایه‌ای منطقه‌ای
 
-## زیرساخت داخلی و دسترسی‌پذیری
+اگرچه لوما در ابتدا بر جامعه گیمینگ ایران تمرکز دارد، معماری و مسیر بلندمدت آن به ایران محدود نخواهد بود.
 
-یکی از مهم‌ترین دلایل تمرکز اولیه لوما بر ایران، شرایط خاص اینترنت و زیرساخت ارتباطی کشور است.
+چشم‌انداز گسترده‌تر ما پشتیبانی از اکوسیستمی بین‌المللی است که توسعه‌دهندگان و بازیکنان مناطق مختلف بتوانند در آن مشارکت داشته باشند.
 
-وابستگی به پلتفرم‌های بین‌المللی هنگام اختلال در ارتباطات بین‌المللی می‌تواند به یک مشکل جدی تبدیل شود.
+این چشم‌انداز شامل موارد زیر است:
 
-در چنین شرایطی ممکن است گیمرها دسترسی خود را به سرویس‌هایی که به‌طور معمول از آن‌ها استفاده می‌کنند، از دست بدهند.
+- پشتیبانی از توسعه‌دهندگان خارج از یک منطقه جغرافیایی مشخص.
+- فراهم کردن امکان دسترسی بازی‌ها به مخاطبان گسترده‌تر.
+- ایجاد زیرساخت قابل توسعه برای مناطق مختلف.
+- پشتیبانی از نیازهای متفاوت در زمینه توزیع و دسترسی.
+- ایجاد فرصت برای همکاری‌های بین‌المللی.
 
-لوما قصد دارد با پشتیبانی از زیرساخت‌های داخلی و توزیع محتوای بومی، این وابستگی را کاهش دهد.
+شروع از یک مشکل منطقه‌ای مشخص به لوما کمک می‌کند بر اساس نیازهای واقعی شکل بگیرد و در عین حال برای مخاطبان گسترده‌تر توسعه پیدا کند.
 
-با اتصال به CDNهای داخلی پشتیبانی‌شده و بهینه‌سازی توزیع منطقه‌ای، هدف ما فراهم کردن دانلود سریع‌تر، کارآمدتر و قابل‌اعتمادتر برای کاربران داخل ایران است.
+**پایه‌ای محلی، چشم‌اندازی جهانی.**
 
-اهداف بلندمدت زیرساختی ما عبارت‌اند از:
+## ۰۸. توسعه با کمک هوش مصنوعی و OpenAI
 
-- توزیع محتوای داخلی.
-- بهینه‌سازی دانلود منطقه‌ای.
-- اتصال به CDNهای داخلی پشتیبانی‌شده.
-- کاهش وابستگی به سرورهای دانلود بین‌المللی.
-- توزیع کارآمد به‌روزرسانی بازی‌ها.
-- دسترسی پایدارتر به بازی‌ها و سرویس‌هایی که در داخل کشور میزبانی می‌شوند.
+هوش مصنوعی به بخش مهمی از فضای توسعه نرم‌افزارهای مدرن تبدیل شده است.
 
-این زیرساخت‌ها برای بهبود دسترسی و کاهش وابستگی خارجی طراحی می‌شوند؛ البته برخی قابلیت‌ها و سرویس‌ها همچنان ممکن است به اینترنت بین‌الملل نیاز داشته باشند.
+لوما با کمک ابزارهای هوش مصنوعی، از جمله **ChatGPT شرکت OpenAI**، در حال توسعه است.
 
-## فراتر از ایران
+ChatGPT به‌عنوان ابزاری کمکی در مراحل مختلف فرایند مهندسی و توسعه استفاده می‌شود.
 
-با اینکه لوما فعالیت خود را با تمرکز بر جامعه گیمینگ ایران آغاز می‌کند، اهداف ما به یک کشور محدود نمی‌شوند.
-
-چشم‌انداز بلندمدت ما ایجاد اکوسیستمی است که بتواند بازی‌سازان و گیمرها را در سطح بین‌المللی به یکدیگر متصل کند.
-
-می‌خواهیم توسعه‌دهندگان کشورهای مختلف بتوانند بازی‌های خود را منتشر کنند، به مخاطبان جدید دسترسی پیدا کنند و در یک اکوسیستم توزیع بازی دسترس‌پذیرتر مشارکت داشته باشند.
-
-همچنین می‌خواهیم بازیکنان سراسر دنیا بتوانند بازی‌هایی را کشف کنند که شاید در شرایط عادی هرگز با آن‌ها آشنا نمی‌شدند.
-
-**شروع از یک منطقه به معنای محدود بودن اهداف به همان منطقه نیست.**
-
-## توسعه با کمک هوش مصنوعی و OpenAI
-
-هوش مصنوعی به بخش مهمی از روند توسعه نرم‌افزارهای مدرن تبدیل شده است و روند توسعه لوما نیز از این تحول بهره می‌برد.
-
-**در فرایند توسعه Looma از ChatGPT شرکت OpenAI به‌عنوان یک ابزار کمکی هوش مصنوعی استفاده می‌شود.**
-
-ChatGPT در بخش‌هایی از روند توسعه به ما کمک می‌کند، از جمله:
+زمینه‌های استفاده از آن شامل موارد زیر هستند:
 
 - بررسی و ارزیابی راهکارهای فنی.
-- برنامه‌ریزی معماری نرم‌افزار و روند توسعه.
-- کمک در برنامه‌نویسی و پیاده‌سازی قابلیت‌ها.
-- بررسی ایده‌ها و شناسایی مشکلات احتمالی.
-- اشکال‌زدایی و بررسی مسائل فنی.
-- بهبود مستندات پروژه.
-- بررسی راه‌حل‌های مختلف برای چالش‌های توسعه.
+- برنامه‌ریزی معماری نرم‌افزار.
+- کمک در برنامه‌نویسی و پیاده‌سازی.
+- تحلیل مشکلات فنی.
+- اشکال‌زدایی و عیب‌یابی.
+- بررسی تصمیم‌های توسعه.
+- بهبود مستندات فنی.
+- بررسی راهکارهای جایگزین برای چالش‌های مهندسی.
 
-ما هوش مصنوعی را ابزاری برای همکاری در فرایند توسعه و افزایش بهره‌وری می‌دانیم؛ ابزاری که می‌تواند به بررسی ایده‌ها، حل چالش‌های فنی و بهبود روند ساخت محصول کمک کند.
+استفاده از هوش مصنوعی به تسریع تحقیقات، پشتیبانی از حل مسئله و افزایش بهره‌وری در توسعه کمک می‌کند.
 
-با این حال، استفاده از هوش مصنوعی جایگزین قضاوت مهندسی، آزمایش، اعتبارسنجی و مسئولیت‌پذیری در برابر محصول نهایی نیست.
+بااین‌حال، پیشنهادها و کدهای تولیدشده توسط هوش مصنوعی همچنان باید بررسی، آزمایش و اعتبارسنجی شوند. تصمیم‌های مهندسی و مسئولیت محصول نهایی همچنان بخشی از فرایند توسعه هستند.
 
-هدف ما ترکیب هدایت انسانی، مهندسی دقیق و توسعه با کمک هوش مصنوعی برای ساخت بهتر و مؤثرتر لوماست.
+رویکرد ما ترکیب هدایت انسانی، قضاوت مهندسی و توسعه با کمک هوش مصنوعی است.
 
-این بخش ابزارهای مورد استفاده در روند توسعه را معرفی می‌کند و به معنای همکاری رسمی با OpenAI یا استفاده فعلی محصول منتشرشده از APIهای این شرکت نیست.
+استفاده از ChatGPT در توسعه به معنای همکاری رسمی با OpenAI یا وجود اتصال فعلی APIهای OpenAI در محصول نیست.
 
-## اصول اصلی ما
+## ۰۹. اصول طراحی
 
-لوما بر اساس چند اصل اساسی توسعه پیدا می‌کند:
+لوما بر اساس اصولی توسعه پیدا می‌کند که بر طراحی و تصمیم‌های فنی آن تأثیر می‌گذارند.
 
 **دسترسی‌پذیری**
 
-فرصت‌های حضور در دنیای بازی‌ها نباید بدون دلیل به‌واسطه موقعیت جغرافیایی محدود شوند.
+دنیای بازی‌ها باید بدون محدودیت‌های غیرضروری جغرافیایی در دسترس افراد بیشتری باشد.
 
 **آزادی توسعه‌دهندگان**
 
-سازندگان باید کنترل معناداری بر نحوه انتشار، توزیع و درآمدزایی از بازی‌های خود داشته باشند.
+توسعه‌دهندگان باید کنترل معناداری بر انتشار، توزیع و درآمدزایی از آثار خود داشته باشند.
 
-**کنترل کاربر**
+**مالکیت و کنترل کاربر**
 
-کاربران باید از فعالیت‌های پلتفرم آگاه باشند و بر آن‌ها کنترل داشته باشند.
+کاربران باید بر بازی‌ها، تنظیمات، دانلودها و عملیات پشتیبانی‌شده لانچر کنترل شفاف داشته باشند.
 
 **شخصی‌سازی**
 
-هر کاربر باید آزادی تغییر تجربه خود را داشته باشد.
+تجربه استفاده باید با ترجیحات هر فرد سازگار باشد.
 
 **سادگی**
 
-امکانات پیشرفته باید برای همه قابل‌فهم و قابل‌استفاده باقی بمانند.
+قابلیت‌های پیشرفته باید قابل‌فهم و قابل‌استفاده باقی بمانند.
 
-**زیرساخت داخلی**
+**شفافیت**
 
-زیرساخت‌های منطقه‌ای می‌توانند کارایی توزیع و دسترسی‌پذیری را بهبود دهند.
+پلتفرم باید فعالیت‌های خود را به‌صورت واضح به کاربران اعلام کند.
 
-**جامعه**
+**زیرساخت منطقه‌ای**
 
-یک اکوسیستم موفق بازی باید هم برای توسعه‌دهندگان و هم برای بازیکنان ارزش ایجاد کند.
+هر جا که زیرساخت محلی و منطقه‌ای موجب بهبود دسترسی و توزیع شود، باید از آن استفاده کرد.
 
 **بهبود مستمر**
 
-لوما باید با استفاده از بازخورد واقعی کاربران، پیشرفت‌های فنی و مشارکت جامعه تکامل پیدا کند.
+پلتفرم باید با آزمایش، پیشرفت فنی و بازخورد واقعی کاربران تکامل پیدا کند.
 
-## چشم‌انداز بلندمدت
+## ۱۰. فناوری و مسیر توسعه
 
-ما لوما را بسیار فراتر از یک لانچر تصور می‌کنیم.
+لوما با تمرکز بر ماژولار بودن، قابلیت نگهداری، مقیاس‌پذیری و پایداری در حال توسعه است.
 
-اهداف بلندمدت ما شامل ساخت موارد زیر است:
+جهت‌گیری فنی پروژه باید امکان رشد از یک لانچر به یک اکوسیستم بزرگ‌تر توزیع دیجیتال بازی را فراهم کند.
 
-- یک پلتفرم کامل توزیع دیجیتال بازی.
+ملاحظات مهم مهندسی شامل موارد زیر هستند:
+
+- معماری نرم‌افزاری ماژولار.
+- جداسازی قابلیت‌های اصلی لانچر از سرویس‌های پلتفرم.
+- سازوکار قابل‌اعتماد برای نصب و به‌روزرسانی بازی‌ها.
+- مدیریت بهینه دانلودها.
+- مدیریت امن اطلاعات کاربران و احراز هویت.
+- زیرساخت مقیاس‌پذیر توزیع بازی‌ها.
+- سیستم‌های قابل نگهداری برای توسعه‌دهندگان و انتشار بازی.
+- رابط‌های مشخص میان اجزای مستقل.
+- آزمایش و اعتبارسنجی عملیات حساس.
+
+معماری باید به‌گونه‌ای طراحی شود که اجزای مختلف بتوانند بدون نیاز به تغییرات غیرضروری در کل پلتفرم توسعه پیدا کنند.
+
+این رویکرد نگهداری، گسترش و اتصال لوما به سرویس‌های آینده را آسان‌تر می‌کند.
+
+## ۱۱. چشم‌انداز بلندمدت
+
+هدف بلندمدت لوما فراتر از قابلیت‌های یک لانچر معمولی است.
+
+این پلتفرم قرار است به‌مرور به سمت ایجاد یک اکوسیستم کامل بازی حرکت کند که می‌تواند شامل موارد زیر باشد:
+
+- پلتفرم توزیع دیجیتال بازی.
 - فروشگاه بازی برای توسعه‌دهندگان مستقل.
-- سیستم انتشار و مدیریت بازی‌سازان.
-- زیرساخت امن پرداخت و توزیع درآمد.
-- سیستم کارآمد به‌روزرسانی و توزیع بازی‌ها.
-- اتصال مقیاس‌پذیر به CDNهای منطقه‌ای.
-- ابزارهای پیشرفته مدیریت بازی و کتابخانه.
+- ابزارهای انتشار و مدیریت بازی‌سازان.
+- امکانات کشف بازی و ایجاد جامعه.
+- سیستم‌های امن پرداخت و توزیع درآمد.
+- اتصال به CDNهای منطقه‌ای.
+- قابلیت‌های پیشرفته مدیریت بازی.
 - امکانات گسترده شخصی‌سازی.
-- جامعه‌ای بین‌المللی از گیمرها.
-- اکوسیستمی برای پشتیبانی از توسعه‌دهندگان مستقل و استودیوهای بزرگ‌تر.
+- زیرساخت توزیع بین‌المللی.
+- پشتیبانی از سازندگان مستقل و استودیوهای بزرگ.
 
-این موارد اهداف بلندمدت هستند و اجرای آن‌ها به پیشرفت توسعه، زیرساخت‌ها، همکاری‌ها و منابع در دسترس بستگی خواهد داشت.
+این قابلیت‌ها مسیر بلندمدت لوما را مشخص می‌کنند و به‌تدریج بر اساس امکان‌پذیری فنی، زیرساخت‌ها، همکاری‌ها و منابع در دسترس توسعه پیدا خواهند کرد.
 
-## وضعیت فعلی توسعه
+## ۱۲. وضعیت فعلی توسعه
 
-**Looma Launcher در حال حاضر به‌صورت فعال در دست توسعه است.**
+**لوما در حال حاضر به‌صورت فعال در دست توسعه است.**
 
-پروژه در مراحل اولیه توسعه قرار دارد و معماری، زیرساخت‌ها، سیستم‌های توزیع و قابلیت‌های اصلی آن به‌صورت مرحله‌ای در حال طراحی و پیاده‌سازی هستند.
+سیستم‌های اصلی، معماری، تجربه کاربری و زیرساخت‌های آن به‌صورت مرحله‌ای در حال توسعه هستند.
 
-تمام قابلیت‌هایی که در این README توضیح داده شده‌اند، لزوماً در حال حاضر پیاده‌سازی یا آماده استفاده نیستند. برخی از بخش‌ها قابلیت‌های برنامه‌ریزی‌شده و اهداف بلندمدت پروژه را توصیف می‌کنند.
+پروژه در مراحل اولیه توسعه قرار دارد. قابلیت‌هایی که به‌عنوان برنامه آینده یا چشم‌انداز معرفی شده‌اند، لزوماً در حال حاضر آماده یا پیاده‌سازی‌شده نیستند.
 
-ما به توسعه مرحله‌به‌مرحله، آزمایش اجزای پروژه، مستندسازی پیشرفت و بهبود مستمر پلتفرم متعهد هستیم.
+اولویت توسعه، ایجاد یک پایه فنی قابل‌اعتماد، پیاده‌سازی قابلیت‌های اصلی لانچر و گسترش تدریجی آن به سمت چشم‌انداز گسترده‌تر پلتفرم است.
 
-این مخزن نقطه شروع اصلی کد منبع، مستندات، نقشه راه توسعه و مشارکت‌های آینده لوماست.
+تمرکز ما ساخت محصولی کاربردی، قابل نگهداری و مقیاس‌پذیر است؛ نه انتشار عجولانه قابلیت‌های ناقص.
 
-## مشارکت در پروژه
+## ۱۳. مأموریت
 
-لوما با هدف رشد به‌عنوان یک پروژه مشارکت‌محور توسعه پیدا می‌کند.
+لوما با هدف دسترس‌پذیرتر کردن دنیای بازی‌ها، آزادتر کردن توزیع و انعطاف‌پذیرتر کردن تجربه کاربران ساخته می‌شود.
 
-از توسعه‌دهندگان، طراحان، آزمایش‌کنندگان و علاقه‌مندان به دنیای بازی که با چشم‌انداز ما هم‌نظر هستند، در مسیر توسعه پروژه استقبال خواهیم کرد.
+می‌خواهیم توسعه‌دهندگان فرصت‌های بهتری برای انتشار آثار خود داشته باشند.
 
-راهنمای مشارکت، فرآیند توسعه و فرصت‌های همکاری هم‌زمان با پیشرفت پروژه منتشر خواهند شد.
+می‌خواهیم گیمرها در پیدا کردن و مدیریت بازی‌هایشان آزادی عمل بیشتری داشته باشند.
 
-## مأموریت ما
+می‌خواهیم کاربران نرم‌افزار خود را درک کنند و کنترل آن را در اختیار داشته باشند.
 
-ما لوما را می‌سازیم، چون باور داریم دنیای بازی‌ها باید دسترس‌پذیرتر باشد.
+می‌خواهیم امکانات قدرتمند را بدون پیچیدگی غیرضروری ارائه کنیم.
 
-باور داریم توسعه‌دهندگان مستقل شایسته فرصت انتشار و درآمدزایی از آثار خود هستند.
+و می‌خواهیم مرزهای جغرافیایی تا حد ممکن مانع خلاقیت، فرصت و سرگرمی نشوند.
 
-باور داریم گیمرها باید دسترسی بهتری به بازی‌هایی که دوست دارند داشته باشند.
-
-باور داریم کاربران باید کنترل تجربه خود را در اختیار داشته باشند.
-
-باور داریم نرم‌افزار قدرتمند باید ساده و قابل‌فهم هم باشد.
-
-و باور داریم مرزهای جغرافیایی نباید به مانعی برای خلاقیت، فرصت و سرگرمی تبدیل شوند.
-
-**Looma Launcher — Gaming Without Borders.**
+**LOOMA — Gaming Without Borders.**
